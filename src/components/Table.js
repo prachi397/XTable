@@ -18,9 +18,9 @@ const Table = () =>{
             <table>
                 <thead>
                     <tr>
-                    <td>Date</td>
-                    <td>Views</td>
-                    <td>Article</td>
+                    <th>Date</th>
+                    <th>Views</th>
+                    <th>Article</th>
                     </tr>               
                 </thead>
                 {tableData.map((ele,idx)=>(
